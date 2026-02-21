@@ -1,0 +1,210 @@
+{
+    "hindi": [
+        {
+            "id": 1291608,
+            "title": "Dhurandhar",
+            "overview": "A mysterious traveler slips into the heart of Karachi's underbelly and rises through its ranks with lethal precision, only to tear the notorious ISI-Underworld nexus apart from within.",
+            "poster_path": "/8FHOtUpNIk5ZPEay2N2EY5lrxkv.jpg",
+            "release_date": "2025-12-05",
+            "vote_average": 6.9,
+            "original_language": "hi",
+            "youtube_id": "CN0lNff-zm0"
+        },
+        {
+            "id": 62201,
+            "title": "Shahenshah",
+            "overview": "Inspector Srivastav is framed by a wily and cunning gangster, J.K., and unable to prove his innocence, hangs himself, leaving behind his wife, and son, Vijay.",
+            "poster_path": "/2ZUpj73MzEh2YwVzJNVUqBSu2LZ.jpg",
+            "release_date": "1988-01-29",
+            "vote_average": 6.4,
+            "original_language": "hi",
+            "youtube_id": "oFfQ-O0S09g"
+        },
+        {
+            "id": 19404,
+            "title": "Dilwale Dulhania Le Jayenge",
+            "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh.",
+            "poster_path": "/2CAL2433ZeIihfX1Hb2139CX0pW.jpg",
+            "release_date": "1995-10-20",
+            "vote_average": 8.517,
+            "original_language": "hi",
+            "youtube_id": "oIZ4U21DRlM"
+        },
+        {
+            "id": 297222,
+            "title": "PK",
+            "overview": "A stranger in the city asks questions no one has asked before.",
+            "poster_path": "/z2x2Y4tncefsIU7h82gmUM5vnBJ.jpg",
+            "release_date": "2014-12-18",
+            "vote_average": 7.707,
+            "original_language": "hi",
+            "youtube_id": "SOXWc32k4zA"
+        },
+        {
+            "id": 1196943,
+            "title": "Chhaava",
+            "overview": "Shivaji's death sparks the Maratha-Mughal conflict. His son Sambhaji leads resistance against Aurangzeb's forces.",
+            "poster_path": "/ubRsrzb6NRW8YhVTJ6jG1kpNvCi.jpg",
+            "release_date": "2025-02-14",
+            "vote_average": 6.91,
+            "original_language": "hi",
+            "youtube_id": "F6dGg2JX8Lc"
+        },
+        {
+            "id": 20453,
+            "title": "3 Idiots",
+            "overview": "Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently.",
+            "poster_path": "/66A9MqXOyVFCssoloscw79z8Tew.jpg",
+            "release_date": "2009-12-23",
+            "vote_average": 7.997,
+            "original_language": "hi",
+            "youtube_id": "zIKu9k50SDo"
+        }
+    ],
+    "english": [
+        {
+            "id": 1236153,
+            "title": "Mercy",
+            "overview": "In the near future, a detective stands on trial accused of murdering his wife.",
+            "poster_path": "/pyok1kZJCfyuFapYXzHcy7BLlQa.jpg",
+            "release_date": "2026-01-20",
+            "vote_average": 6.881,
+            "original_language": "en",
+            "youtube_id": "7H7Djx17l8Y"
+        },
+        {
+            "id": 434853,
+            "title": "Space/Time",
+            "overview": "A disgraced team of scientists enters the criminal underworld to rebuild a forbidden space-bending engine.",
+            "poster_path": "/uje1ecKMnNpZp0at5TxlvVgVXqI.jpg",
+            "release_date": "2025-05-01",
+            "vote_average": 5.766,
+            "original_language": "en",
+            "youtube_id": "qA87_ceGoOg"
+        },
+        {
+            "id": 840464,
+            "title": "Greenland 2: Migration",
+            "overview": "The Garrity family must risk everything to embark on a perilous journey across the wasteland of Europe.",
+            "poster_path": "/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg",
+            "release_date": "2026-01-07",
+            "vote_average": 6.548,
+            "original_language": "en",
+            "youtube_id": "H8ieN10lX40"
+        },
+        {
+            "id": 1084242,
+            "title": "Zootopia 2",
+            "overview": "Rookie cops Judy Hopps and Nick Wilde find themselves on the twisting trail of a great mystery.",
+            "poster_path": "/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
+            "release_date": "2025-11-26",
+            "vote_average": 7.6,
+            "original_language": "en",
+            "youtube_id": "5AwtptT8X8k"
+        }
+    ],
+    "top_rated": [
+        {
+            "id": 278,
+            "title": "The Shawshank Redemption",
+            "overview": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison.",
+            "poster_path": "/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+            "release_date": "1994-09-23",
+            "vote_average": 8.7,
+            "original_language": "en",
+            "youtube_id": "PLl99DlL6b4"
+        },
+        {
+            "id": 238,
+            "title": "The Godfather",
+            "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family.",
+            "poster_path": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+            "release_date": "1972-03-14",
+            "vote_average": 8.7,
+            "original_language": "en",
+            "youtube_id": "8V2k2YQEQJ4"
+        },
+        {
+            "id": 155,
+            "title": "The Dark Knight",
+            "overview": "Batman raises the stakes in his war on crime.",
+            "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+            "release_date": "2008-07-16",
+            "vote_average": 8.5,
+            "original_language": "en",
+            "youtube_id": "vbjYVETxZqM"
+        },
+        {
+            "id": 157336,
+            "title": "Interstellar",
+            "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole.",
+            "poster_path": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+            "release_date": "2014-11-05",
+            "vote_average": 8.5,
+            "original_language": "en",
+            "youtube_id": "zSWdZVtXT7E"
+        },
+        {
+            "id": 496243,
+            "title": "Parasite",
+            "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks.",
+            "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+            "release_date": "2019-05-30",
+            "vote_average": 8.5,
+            "original_language": "ko",
+            "youtube_id": "isOGD_7hNIY"
+        }
+    ],
+    "south": [
+        {
+            "id": 1511417,
+            "title": "Bāhubali: The Epic",
+            "overview": "A mysterious child is found by a tribal couple near a roaring waterfall.",
+            "poster_path": "/z9YIo2qscyaXYgRqIdRJtND3bw8.jpg",
+            "release_date": "2025-10-29",
+            "vote_average": 5.984,
+            "original_language": "te",
+            "youtube_id": "q8nbZbHRcEg"
+        },
+        {
+            "id": 1083637,
+            "title": "Kantara - A Legend: Chapter 1",
+            "overview": "During the Kadamba reign, King Vijayendra meets his final fate while venturing into the mystical forest of Kantara.",
+            "poster_path": "/ehQPboTPaIMkMUOoNOh8e7pZ5Rp.jpg",
+            "release_date": "2025-10-01",
+            "vote_average": 7.017,
+            "original_language": "kn",
+            "youtube_id": "TMQUFhWm8C0"
+        },
+        {
+            "id": 1403735,
+            "title": "Laila",
+            "overview": "Sonu Model is forced to disguise himself as Laila, leading to a series of comedic, romantic, and action-packed events.",
+            "poster_path": "/aFogllaRGlAhk1nqvVGFpZpl4qU.jpg",
+            "release_date": "2025-02-14",
+            "vote_average": 5.2,
+            "original_language": "te",
+            "youtube_id": "FyhFBHpTh6Y"
+        },
+        {
+            "id": 579974,
+            "title": "RRR",
+            "overview": "A fictional history of two legendary revolutionaries' journey away from home.",
+            "poster_path": "/u0XUBNQWlOvrh0Gd97ARGpIkL0.jpg",
+            "release_date": "2022-03-24",
+            "vote_average": 7.73,
+            "original_language": "te",
+            "youtube_id": "i4pjiLGUTtk"
+        },
+        {
+            "id": 811941,
+            "title": "Devara: Part 1",
+            "overview": "Devara, a fearless man from a coastal region, embarks on a perilous journey into the treacherous world of the sea.",
+            "poster_path": "/lQfuaXjANoTsdx5iS0gCXlK9D2L.jpg",
+            "release_date": "2024-09-26",
+            "vote_average": 6.91,
+            "original_language": "te",
+            "youtube_id": "S5wQD_0WGTA"
+        }
+    ]
+}
