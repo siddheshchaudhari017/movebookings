@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { MapPin, Film, Search, Loader2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import API_URL from '../config';
 
 const Theatres = () => {
     const [theatres, setTheatres] = useState([]);
@@ -11,7 +12,7 @@ const Theatres = () => {
     useEffect(() => {
         const fetchTheatres = async () => {
             try {
-                const { data } = await axios.get('http://localhost:5000/api/cinema/theatres');
+                const { data } = await axios.get(`${API_URL}/api/cinema/theatres`);
                 setTheatres(data);
             } catch (err) {
                 console.error('Error fetching theatres:', err);

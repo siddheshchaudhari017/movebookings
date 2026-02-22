@@ -7,8 +7,9 @@ import {
 import { Link, Routes, Route, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import MovieImage from '../components/MovieImage';
+import API_URL from '../config';
 
-const API_BASE = 'http://localhost:5000';
+const API_BASE = API_URL;
 
 const StatCard = ({ icon, label, value, color }) => (
     <div className="glass-card p-6 flex items-center gap-4 transition-all hover:scale-[1.02]">

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import { CheckCircle, Download, Calendar, MapPin, Ticket, QrCode, Home } from 'lucide-react';
+import API_URL from '../config';
 
 const BookingSuccess = () => {
     const { bookingId } = useParams();
@@ -13,7 +14,7 @@ const BookingSuccess = () => {
         // Here we'll simulate it or fetch if we had the endpoint
         const fetchBooking = async () => {
             try {
-                const { data } = await axios.get(`http://localhost:5000/api/bookings/mybookings`, {
+                const { data } = await axios.get(`${API_URL}/api/bookings/mybookings`, {
                     headers: { Authorization: `Bearer ${JSON.parse(localStorage.getItem('user')).token}` }
                 });
                 const current = data.find(b => b._id === bookingId);

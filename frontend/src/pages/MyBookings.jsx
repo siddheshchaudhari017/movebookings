@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Ticket, Calendar, MapPin, Download, XCircle, Clock } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import API_URL from '../config';
 
 const MyBookings = () => {
     const [bookings, setBookings] = useState([]);
@@ -10,7 +11,7 @@ const MyBookings = () => {
     useEffect(() => {
         const fetchBookings = async () => {
             try {
-                const { data } = await axios.get('http://localhost:5000/api/bookings/mybookings', {
+                const { data } = await axios.get(`${API_URL}/api/bookings/mybookings`, {
                     headers: { Authorization: `Bearer ${JSON.parse(localStorage.getItem('user')).token}` }
                 });
                 setBookings(data.reverse());

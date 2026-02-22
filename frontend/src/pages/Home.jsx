@@ -3,6 +3,7 @@ import axios from 'axios';
 import { Search, Sparkles, TrendingUp, Trophy, ArrowRight } from 'lucide-react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import MovieSection from '../components/MovieSection';
+import API_URL from '../config';
 
 const Home = () => {
     const [movies, setMovies] = useState([]);
@@ -59,7 +60,7 @@ const Home = () => {
         const fetchMovies = async () => {
             setLoading(true);
             try {
-                let url = 'http://localhost:5000/api/movies';
+                let url = `${API_URL}/api/movies`;
                 const params = new URLSearchParams();
                 if (search) params.append('search', search);
                 if (activeCategory !== 'All') params.append('industry', activeCategory);

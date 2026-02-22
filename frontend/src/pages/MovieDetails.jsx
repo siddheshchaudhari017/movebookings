@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { Star, Clock, Calendar, Ticket, Play, Info, Share2, Heart } from 'lucide-react';
 import MovieImage from '../components/MovieImage';
+import API_URL from '../config';
 
 const MovieDetails = () => {
     const { id } = useParams();
@@ -13,7 +14,7 @@ const MovieDetails = () => {
     useEffect(() => {
         const fetchMovie = async () => {
             try {
-                const { data } = await axios.get(`http://localhost:5000/api/movies/${id}`);
+                const { data } = await axios.get(`${API_URL}/api/movies/${id}`);
                 setMovie(data);
             } catch (err) {
                 console.error(err);

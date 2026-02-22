@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { MapPin, ChevronRight, Clock } from 'lucide-react';
+import API_URL from '../config';
 
 const ShowSelection = () => {
     const { movieId } = useParams();
@@ -15,8 +16,8 @@ const ShowSelection = () => {
         const fetchData = async () => {
             try {
                 const [movieRes, showsRes] = await Promise.all([
-                    axios.get(`http://localhost:5000/api/movies/${movieId}`),
-                    axios.get(`http://localhost:5000/api/cinema/shows/movie/${movieId}?date=${selectedDate}`)
+                    axios.get(`${API_URL}/api/movies/${movieId}`),
+                    axios.get(`${API_URL}/api/cinema/shows/movie/${movieId}?date=${selectedDate}`)
                 ]);
                 setMovie(movieRes.data);
                 setShows(showsRes.data);
@@ -65,8 +66,8 @@ const ShowSelection = () => {
                                     key={dateStr}
                                     onClick={() => setSelectedDate(dateStr)}
                                     className={`flex flex-col items-center min-w-[70px] p-2 rounded-xl border transition-all ${isSelected
-                                            ? 'bg-rose-600 border-rose-600 text-white shadow-lg shadow-rose-600/20'
-                                            : 'bg-white dark:bg-white/5 border-gray-200 dark:border-white/10 dark:text-gray-300 hover:border-rose-600/50'
+                                        ? 'bg-rose-600 border-rose-600 text-white shadow-lg shadow-rose-600/20'
+                                        : 'bg-white dark:bg-white/5 border-gray-200 dark:border-white/10 dark:text-gray-300 hover:border-rose-600/50'
                                         }`}
                                 >
                                     <span className="text-xs uppercase font-bold">{date.toLocaleString('default', { weekday: 'short' })}</span>

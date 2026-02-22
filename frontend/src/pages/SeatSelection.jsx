@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { Armchair, CheckCircle2, Info, ChevronRight, Loader2 } from 'lucide-react';
+import API_URL from '../config';
 
 const SEAT_TYPES = {
     regular: { label: 'Regular', color: 'bg-emerald-500', priceKey: 'regular' },
@@ -20,7 +21,7 @@ const SeatSelection = () => {
     useEffect(() => {
         const fetchShow = async () => {
             try {
-                const { data } = await axios.get(`http://localhost:5000/api/cinema/shows/${showId}`);
+                const { data } = await axios.get(`${API_URL}/api/cinema/shows/${showId}`);
                 setShow(data);
             } catch (err) {
                 console.error(err);
@@ -70,7 +71,7 @@ const SeatSelection = () => {
         try {
             const total = calculateTotal();
             const tax = total * 0.18; // 18% tax
-            const { data } = await axios.post('http://localhost:5000/api/bookings', {
+            const { data } = await axios.post(`${API_URL}/api/bookings`, {
                 showId: show._id,
                 seats: selectedSeats,
                 totalAmount: total + tax,
